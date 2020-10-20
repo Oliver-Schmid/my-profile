@@ -1,0 +1,127 @@
+body  {
+    background-color: rgba(225,225,225);
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+h1  {
+  color: rgb(30,30,30);
+  font-size: 33px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+h2  {
+  color: white;
+  font-size: : 35px;
+  font-weight: 400;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 600;
+  text-decoration: none;
+  color: #2d6187;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with class */
+.container {
+  width: 1400px;
+  margin: 40px auto;
+}
+@media (max-width: 500px)  {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 760px)  {
+  .container {
+    width: 600px;
+  }
+}
+.card-white {
+  color: white;
+  background-color: black;
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.card-title {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 25px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-circle {
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  width: 60%;
+}
+.btn-blue {
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #6096BA;
+  color: white;
+}
+.paragraph-title {
+  margin-bottom: 60px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(225,225,225);
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color: #003554;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
